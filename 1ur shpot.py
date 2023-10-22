@@ -1,14 +1,13 @@
 print("Hello word")
 
-def calc() :
-    def suma() :
-        a = int(input("a:"))
-        b = int(input("b:"))
-        print(a + b)
-    def risnyca() :
-        c = int(input("a:"))
-        d = int(input("b:"))
-        print(c - d)
+def suma() :
+    a = int(input("a:"))
+    b = int(input("b:"))
+    print(a + b)
+def risnyca() :
+    c = int(input("a:"))
+    d = int(input("b:"))
+    print(c - d)
 
 print("Хотите выполнить отнимание?")
 otn = input("")
